@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0F1216">
+<title>Track Your Order — devFlow Creative</title>
+<meta name="description" content="Track a devFlow Creative order.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="logo">devFlow<span>Creative</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>
+      </button>
+      <nav class="main-nav" id="mainNav"><a href="index.html">Home</a><a href="laptops.html">Laptops</a><a href="peripherals.html">Peripherals</a><a href="monitors.html">Monitors & LCDs</a><a href="track-order.html" class="active">Track Order</a><a href="contact.html">Contact</a></nav>
+      <div class="header-actions">
+        <a href="login.html" class="header-link">Log in</a>
+        <a href="signup.html" class="btn btn-outline btn-small">Sign up</a>
+        <button class="cart-btn" id="cartOpenBtn" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/><path d="M2 3h2l2.2 12.2a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+          <span class="cart-count" data-cart-count data-empty="true">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+<div class="wrap track-body">
+  <h1>Track your order</h1>
+  <p>Enter the order ID from your confirmation email to see its current status.</p>
+  <form class="track-form" id="trackForm" onsubmit="return handleTrack(event)">
+    <input type="text" id="trackInput" placeholder="Order ID, e.g. DFC-10492" required>
+    <button type="submit" class="btn btn-primary">Track</button>
+  </form>
+
+  <div class="track-result" id="trackResult">
+    <div class="track-order-id">Order <span id="trackIdOut"></span></div>
+    <div class="track-steps">
+      <div class="track-step done"><div class="track-dot"></div><span>Order placed</span></div>
+      <div class="track-step done"><div class="track-dot"></div><span>Processing</span></div>
+      <div class="track-step done"><div class="track-dot"></div><span>Shipped</span></div>
+      <div class="track-step"><div class="track-dot"></div><span>Out for delivery</span></div>
+      <div class="track-step"><div class="track-dot"></div><span>Delivered</span></div>
+    </div>
+  </div>
+</div>
+
+<script>
+function handleTrack(e) {
+  e.preventDefault();
+  const id = document.getElementById('trackInput').value.trim();
+  document.getElementById('trackIdOut').textContent = id.toUpperCase();
+  document.getElementById('trackResult').classList.add('show');
+  return false;
+}
+</script>
+
+<footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">devFlow<span>Creative</span></div>
+          <p>A laptop and computing specialist stocking HP, Dell, Lenovo, Apple, Acer and MSI, plus the peripherals and displays to go with them.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="laptops.html">Laptops</a>
+          <a href="peripherals.html">Peripherals</a>
+          <a href="monitors.html">Monitors &amp; LCDs</a>
+        </div>
+        <div class="footer-col">
+          <h4>Brands</h4>
+          <a href="brands/hp.html">HP</a>
+          <a href="brands/dell.html">Dell</a>
+          <a href="brands/lenovo.html">Lenovo</a>
+          <a href="brands/apple.html">Apple</a>
+          <a href="brands/acer.html">Acer</a>
+          <a href="brands/msi.html">MSI</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="contact.html">Contact us</a>
+          <a href="track-order.html">Track an order</a>
+          <a href="login.html">Log in</a>
+          <a href="signup.html">Create account</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 devFlow Creative. All rights reserved.</span>
+        <span>+92 301 6169452 &middot; devflowcreative@gmail.com</span>
+      </div>
+    </div>
+  </footer>
+<div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+    <div class="cart-head">
+      <h2>Your cart</h2>
+      <button class="cart-close" id="cartCloseBtn" aria-label="Close cart">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-subtotal"><span>Subtotal</span><b id="cartSubtotal">Rs 0</b></div>
+      <p>Shipping and taxes calculated at checkout.</p>
+      <button type="button" class="btn btn-primary btn-full" onclick="alert('This is a demo store — checkout isn\'t connected to a backend yet.')">Checkout</button>
+    </div>
+  </aside>
+<script src="data.js"></script>
+<script src="images.js"></script>
+<script src="cart.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

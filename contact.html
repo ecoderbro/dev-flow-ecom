@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0F1216">
+<title>Contact Us — devFlow Creative</title>
+<meta name="description" content="Contact devFlow Creative by phone or email.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="logo">devFlow<span>Creative</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>
+      </button>
+      <nav class="main-nav" id="mainNav"><a href="index.html">Home</a><a href="laptops.html">Laptops</a><a href="peripherals.html">Peripherals</a><a href="monitors.html">Monitors & LCDs</a><a href="track-order.html">Track Order</a><a href="contact.html" class="active">Contact</a></nav>
+      <div class="header-actions">
+        <a href="login.html" class="header-link">Log in</a>
+        <a href="signup.html" class="btn btn-outline btn-small">Sign up</a>
+        <button class="cart-btn" id="cartOpenBtn" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/><path d="M2 3h2l2.2 12.2a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+          <span class="cart-count" data-cart-count data-empty="true">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+<div class="wrap contact-body">
+  <div class="contact-info">
+    <h1>Get in touch</h1>
+    <p>Questions about a laptop, a bulk order, or a warranty claim? Reach out and the devFlow Creative team will get back to you.</p>
+
+    <div class="contact-row">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 5c0 8.3 6.7 15 15 15l1-4-5-2-2 2c-2.5-1.2-4.8-3.5-6-6l2-2-2-5-4 1Z"/></svg>
+      <div><b>Phone</b><a href="tel:+923016169452">+92 301 6169452</a></div>
+    </div>
+    <div class="contact-row">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m4 6.5 8 6 8-6"/></svg>
+      <div><b>Email</b><a href="mailto:devflowcreative@gmail.com">devflowcreative@gmail.com</a></div>
+    </div>
+    <div class="contact-row">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s7-6.1 7-11.5A7 7 0 0 0 5 9.5C5 14.9 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.3"/></svg>
+      <div><b>Store hours</b><span>Mon &ndash; Sat, 11am &ndash; 8pm</span></div>
+    </div>
+  </div>
+
+  <div class="form-card">
+    <h2>Send a message</h2>
+    <div class="form-success" id="contactSuccess">Thanks &mdash; your message has been noted. We'll reply by email shortly.</div>
+    <form id="contactForm" onsubmit="return handleContactSubmit(event)">
+      <div class="field-row">
+        <div class="field"><label for="cName">Full name</label><input id="cName" type="text" required></div>
+        <div class="field"><label for="cEmail">Email</label><input id="cEmail" type="email" required></div>
+      </div>
+      <div class="field"><label for="cSubject">Subject</label><input id="cSubject" type="text" placeholder="e.g. Order question, warranty, bulk pricing"></div>
+      <div class="field"><label for="cMessage">Message</label><textarea id="cMessage" required></textarea></div>
+      <button type="submit" class="btn btn-primary btn-full">Send message</button>
+      <p class="form-note">This form is a front-end demo &mdash; no backend is connected yet, so messages aren't actually sent. Use the phone or email above for now.</p>
+    </form>
+  </div>
+</div>
+
+<script>
+function handleContactSubmit(e) {
+  e.preventDefault();
+  document.getElementById('contactSuccess').classList.add('show');
+  document.getElementById('contactForm').reset();
+  return false;
+}
+</script>
+
+<footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">devFlow<span>Creative</span></div>
+          <p>A laptop and computing specialist stocking HP, Dell, Lenovo, Apple, Acer and MSI, plus the peripherals and displays to go with them.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="laptops.html">Laptops</a>
+          <a href="peripherals.html">Peripherals</a>
+          <a href="monitors.html">Monitors &amp; LCDs</a>
+        </div>
+        <div class="footer-col">
+          <h4>Brands</h4>
+          <a href="brands/hp.html">HP</a>
+          <a href="brands/dell.html">Dell</a>
+          <a href="brands/lenovo.html">Lenovo</a>
+          <a href="brands/apple.html">Apple</a>
+          <a href="brands/acer.html">Acer</a>
+          <a href="brands/msi.html">MSI</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="contact.html">Contact us</a>
+          <a href="track-order.html">Track an order</a>
+          <a href="login.html">Log in</a>
+          <a href="signup.html">Create account</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 devFlow Creative. All rights reserved.</span>
+        <span>+92 301 6169452 &middot; devflowcreative@gmail.com</span>
+      </div>
+    </div>
+  </footer>
+<div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+    <div class="cart-head">
+      <h2>Your cart</h2>
+      <button class="cart-close" id="cartCloseBtn" aria-label="Close cart">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-subtotal"><span>Subtotal</span><b id="cartSubtotal">Rs 0</b></div>
+      <p>Shipping and taxes calculated at checkout.</p>
+      <button type="button" class="btn btn-primary btn-full" onclick="alert('This is a demo store — checkout isn\'t connected to a backend yet.')">Checkout</button>
+    </div>
+  </aside>
+<script src="data.js"></script>
+<script src="images.js"></script>
+<script src="cart.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

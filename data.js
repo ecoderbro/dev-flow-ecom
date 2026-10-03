@@ -1,0 +1,1028 @@
+// Auto-generated catalog data for devFlow Creative
+const LAPTOPS = [
+  {
+    "id": "hp-01",
+    "brand": "hp",
+    "name": "HP Pavilion 15",
+    "screen": 15.6,
+    "ram": 8,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Silver",
+    "price": 82000,
+    "discount": 12
+  },
+  {
+    "id": "hp-02",
+    "brand": "hp",
+    "name": "HP Envy x360 14",
+    "screen": 14,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 7",
+    "color": "Nightfall Black",
+    "price": 148000,
+    "discount": 0
+  },
+  {
+    "id": "hp-03",
+    "brand": "hp",
+    "name": "HP Spectre x360 13.5",
+    "screen": 13.5,
+    "ram": 16,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Nocturne Blue",
+    "price": 235000,
+    "discount": 15
+  },
+  {
+    "id": "hp-04",
+    "brand": "hp",
+    "name": "HP Omen 16 Gaming",
+    "screen": 16.1,
+    "ram": 16,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Shadow Black",
+    "price": 289000,
+    "discount": 10
+  },
+  {
+    "id": "hp-05",
+    "brand": "hp",
+    "name": "HP EliteBook 840",
+    "screen": 14,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Silver",
+    "price": 175000,
+    "discount": 0
+  },
+  {
+    "id": "hp-06",
+    "brand": "hp",
+    "name": "HP Victus 15 Gaming",
+    "screen": 15.6,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 5",
+    "color": "Mica Silver",
+    "price": 158000,
+    "discount": 8
+  },
+  {
+    "id": "hp-07",
+    "brand": "hp",
+    "name": "HP ZBook Firefly 14",
+    "screen": 14,
+    "ram": 32,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Silver",
+    "price": 310000,
+    "discount": 0
+  },
+  {
+    "id": "hp-08",
+    "brand": "hp",
+    "name": "HP ProBook 440",
+    "screen": 14,
+    "ram": 8,
+    "storage": "256GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Silver",
+    "price": 95000,
+    "discount": 5
+  },
+  {
+    "id": "hp-09",
+    "brand": "hp",
+    "name": "HP Pavilion Aero 13",
+    "screen": 13.3,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 7",
+    "color": "Ceramic White",
+    "price": 132000,
+    "discount": 0
+  },
+  {
+    "id": "hp-10",
+    "brand": "hp",
+    "name": "HP Omen Transcend 14",
+    "screen": 14,
+    "ram": 32,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i9",
+    "color": "Shadow Black",
+    "price": 365000,
+    "discount": 18
+  },
+  {
+    "id": "dell-11",
+    "brand": "dell",
+    "name": "Dell Inspiron 15 3520",
+    "screen": 15.6,
+    "ram": 8,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Carbon Black",
+    "price": 88000,
+    "discount": 6
+  },
+  {
+    "id": "dell-12",
+    "brand": "dell",
+    "name": "Dell XPS 13 Plus",
+    "screen": 13.4,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Platinum Silver",
+    "price": 265000,
+    "discount": 12
+  },
+  {
+    "id": "dell-13",
+    "brand": "dell",
+    "name": "Dell XPS 15",
+    "screen": 15.6,
+    "ram": 32,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i9",
+    "color": "Graphite",
+    "price": 385000,
+    "discount": 0
+  },
+  {
+    "id": "dell-14",
+    "brand": "dell",
+    "name": "Dell Latitude 5440",
+    "screen": 14,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Grey",
+    "price": 178000,
+    "discount": 0
+  },
+  {
+    "id": "dell-15",
+    "brand": "dell",
+    "name": "Dell Vostro 3520",
+    "screen": 15.6,
+    "ram": 8,
+    "storage": "256GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Carbon Black",
+    "price": 79000,
+    "discount": 10
+  },
+  {
+    "id": "dell-16",
+    "brand": "dell",
+    "name": "Dell Alienware m16",
+    "screen": 16,
+    "ram": 32,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i9",
+    "color": "Dark Metallic Moon",
+    "price": 420000,
+    "discount": 15
+  },
+  {
+    "id": "dell-17",
+    "brand": "dell",
+    "name": "Dell G15 Gaming",
+    "screen": 15.6,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 7",
+    "color": "Phantom Grey",
+    "price": 195000,
+    "discount": 8
+  },
+  {
+    "id": "dell-18",
+    "brand": "dell",
+    "name": "Dell Precision 5570",
+    "screen": 15.6,
+    "ram": 32,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Titan Grey",
+    "price": 398000,
+    "discount": 0
+  },
+  {
+    "id": "dell-19",
+    "brand": "dell",
+    "name": "Dell Inspiron 16 Plus",
+    "screen": 16,
+    "ram": 16,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Platinum Silver",
+    "price": 228000,
+    "discount": 5
+  },
+  {
+    "id": "dell-20",
+    "brand": "dell",
+    "name": "Dell XPS 17",
+    "screen": 17,
+    "ram": 32,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i9",
+    "color": "Platinum Silver",
+    "price": 455000,
+    "discount": 10
+  },
+  {
+    "id": "lenovo-21",
+    "brand": "lenovo",
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "screen": 14,
+    "ram": 16,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Black",
+    "price": 298000,
+    "discount": 0
+  },
+  {
+    "id": "lenovo-22",
+    "brand": "lenovo",
+    "name": "Lenovo IdeaPad Slim 5",
+    "screen": 15.6,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 7",
+    "color": "Cloud Grey",
+    "price": 135000,
+    "discount": 10
+  },
+  {
+    "id": "lenovo-23",
+    "brand": "lenovo",
+    "name": "Lenovo Legion 5 Pro",
+    "screen": 16,
+    "ram": 16,
+    "storage": "1TB SSD",
+    "cpu": "AMD Ryzen 7",
+    "color": "Storm Grey",
+    "price": 275000,
+    "discount": 12
+  },
+  {
+    "id": "lenovo-24",
+    "brand": "lenovo",
+    "name": "Lenovo Yoga 9i",
+    "screen": 14,
+    "ram": 16,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Oatmeal",
+    "price": 245000,
+    "discount": 0
+  },
+  {
+    "id": "lenovo-25",
+    "brand": "lenovo",
+    "name": "Lenovo ThinkPad T14",
+    "screen": 14,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Black",
+    "price": 189000,
+    "discount": 5
+  },
+  {
+    "id": "lenovo-26",
+    "brand": "lenovo",
+    "name": "Lenovo IdeaPad Gaming 3",
+    "screen": 15.6,
+    "ram": 8,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 5",
+    "color": "Shadow Black",
+    "price": 128000,
+    "discount": 8
+  },
+  {
+    "id": "lenovo-27",
+    "brand": "lenovo",
+    "name": "Lenovo Legion Pro 7",
+    "screen": 16,
+    "ram": 32,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i9",
+    "color": "Onyx Grey",
+    "price": 465000,
+    "discount": 15
+  },
+  {
+    "id": "lenovo-28",
+    "brand": "lenovo",
+    "name": "Lenovo Yoga Slim 7",
+    "screen": 14,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 7",
+    "color": "Storm Grey",
+    "price": 158000,
+    "discount": 0
+  },
+  {
+    "id": "lenovo-29",
+    "brand": "lenovo",
+    "name": "Lenovo ThinkBook 14",
+    "screen": 14,
+    "ram": 8,
+    "storage": "256GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Mineral Grey",
+    "price": 98000,
+    "discount": 6
+  },
+  {
+    "id": "lenovo-30",
+    "brand": "lenovo",
+    "name": "Lenovo IdeaPad 3",
+    "screen": 15.6,
+    "ram": 8,
+    "storage": "256GB SSD",
+    "cpu": "AMD Ryzen 5",
+    "color": "Arctic Grey",
+    "price": 72000,
+    "discount": 10
+  },
+  {
+    "id": "apple-31",
+    "brand": "apple",
+    "name": "MacBook Air 13 M2",
+    "screen": 13.6,
+    "ram": 8,
+    "storage": "256GB SSD",
+    "cpu": "Apple M2",
+    "color": "Midnight",
+    "price": 245000,
+    "discount": 0
+  },
+  {
+    "id": "apple-32",
+    "brand": "apple",
+    "name": "MacBook Air 15 M3",
+    "screen": 15.3,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "Apple M3",
+    "color": "Starlight",
+    "price": 335000,
+    "discount": 5
+  },
+  {
+    "id": "apple-33",
+    "brand": "apple",
+    "name": "MacBook Pro 14 M3",
+    "screen": 14.2,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "Apple M3",
+    "color": "Space Grey",
+    "price": 425000,
+    "discount": 0
+  },
+  {
+    "id": "apple-34",
+    "brand": "apple",
+    "name": "MacBook Pro 16 M3 Pro",
+    "screen": 16.2,
+    "ram": 18,
+    "storage": "1TB SSD",
+    "cpu": "Apple M3 Pro",
+    "color": "Space Black",
+    "price": 635000,
+    "discount": 8
+  },
+  {
+    "id": "apple-35",
+    "brand": "apple",
+    "name": "MacBook Pro 14 M3 Max",
+    "screen": 14.2,
+    "ram": 36,
+    "storage": "1TB SSD",
+    "cpu": "Apple M3 Max",
+    "color": "Space Black",
+    "price": 795000,
+    "discount": 0
+  },
+  {
+    "id": "apple-36",
+    "brand": "apple",
+    "name": "MacBook Air 13 M1",
+    "screen": 13.3,
+    "ram": 8,
+    "storage": "256GB SSD",
+    "cpu": "Apple M1",
+    "color": "Silver",
+    "price": 198000,
+    "discount": 12
+  },
+  {
+    "id": "apple-37",
+    "brand": "apple",
+    "name": "MacBook Pro 13 M2",
+    "screen": 13.3,
+    "ram": 8,
+    "storage": "256GB SSD",
+    "cpu": "Apple M2",
+    "color": "Space Grey",
+    "price": 275000,
+    "discount": 0
+  },
+  {
+    "id": "apple-38",
+    "brand": "apple",
+    "name": "MacBook Air 15 M2",
+    "screen": 15.3,
+    "ram": 8,
+    "storage": "256GB SSD",
+    "cpu": "Apple M2",
+    "color": "Midnight",
+    "price": 298000,
+    "discount": 6
+  },
+  {
+    "id": "apple-39",
+    "brand": "apple",
+    "name": "MacBook Pro 16 M3 Max",
+    "screen": 16.2,
+    "ram": 36,
+    "storage": "1TB SSD",
+    "cpu": "Apple M3 Max",
+    "color": "Space Black",
+    "price": 895000,
+    "discount": 0
+  },
+  {
+    "id": "apple-40",
+    "brand": "apple",
+    "name": "MacBook Pro 14 M3 Pro",
+    "screen": 14.2,
+    "ram": 18,
+    "storage": "512GB SSD",
+    "cpu": "Apple M3 Pro",
+    "color": "Silver",
+    "price": 545000,
+    "discount": 10
+  },
+  {
+    "id": "acer-41",
+    "brand": "acer",
+    "name": "Acer Aspire 5",
+    "screen": 15.6,
+    "ram": 8,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Silver",
+    "price": 85000,
+    "discount": 8
+  },
+  {
+    "id": "acer-42",
+    "brand": "acer",
+    "name": "Acer Swift 3",
+    "screen": 14,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 7",
+    "color": "Pure Silver",
+    "price": 118000,
+    "discount": 0
+  },
+  {
+    "id": "acer-43",
+    "brand": "acer",
+    "name": "Acer Predator Helios 16",
+    "screen": 16,
+    "ram": 32,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i9",
+    "color": "Abyssal Black",
+    "price": 385000,
+    "discount": 12
+  },
+  {
+    "id": "acer-44",
+    "brand": "acer",
+    "name": "Acer Nitro 5",
+    "screen": 15.6,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 5",
+    "color": "Obsidian Black",
+    "price": 165000,
+    "discount": 10
+  },
+  {
+    "id": "acer-45",
+    "brand": "acer",
+    "name": "Acer Swift Go 14",
+    "screen": 14,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Pure Silver",
+    "price": 142000,
+    "discount": 0
+  },
+  {
+    "id": "acer-46",
+    "brand": "acer",
+    "name": "Acer Aspire Vero",
+    "screen": 15.6,
+    "ram": 8,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Ocean Grey",
+    "price": 108000,
+    "discount": 5
+  },
+  {
+    "id": "acer-47",
+    "brand": "acer",
+    "name": "Acer ConceptD 5",
+    "screen": 15.6,
+    "ram": 16,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Black",
+    "price": 268000,
+    "discount": 0
+  },
+  {
+    "id": "acer-48",
+    "brand": "acer",
+    "name": "Acer Predator Triton 300",
+    "screen": 14,
+    "ram": 16,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Black",
+    "price": 298000,
+    "discount": 15
+  },
+  {
+    "id": "acer-49",
+    "brand": "acer",
+    "name": "Acer Aspire 7",
+    "screen": 15.6,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 7",
+    "color": "Charcoal Black",
+    "price": 132000,
+    "discount": 6
+  },
+  {
+    "id": "acer-50",
+    "brand": "acer",
+    "name": "Acer Swift X",
+    "screen": 14,
+    "ram": 16,
+    "storage": "1TB SSD",
+    "cpu": "AMD Ryzen 7",
+    "color": "Steam Blue",
+    "price": 178000,
+    "discount": 0
+  },
+  {
+    "id": "msi-51",
+    "brand": "msi",
+    "name": "MSI Modern 14",
+    "screen": 14,
+    "ram": 8,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i5",
+    "color": "Urban Silver",
+    "price": 98000,
+    "discount": 8
+  },
+  {
+    "id": "msi-52",
+    "brand": "msi",
+    "name": "MSI Katana 15",
+    "screen": 15.6,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Black",
+    "price": 215000,
+    "discount": 10
+  },
+  {
+    "id": "msi-53",
+    "brand": "msi",
+    "name": "MSI Stealth 16",
+    "screen": 16,
+    "ram": 32,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i9",
+    "color": "Core Black",
+    "price": 465000,
+    "discount": 0
+  },
+  {
+    "id": "msi-54",
+    "brand": "msi",
+    "name": "MSI Raider GE68",
+    "screen": 16,
+    "ram": 32,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i9",
+    "color": "Black",
+    "price": 595000,
+    "discount": 12
+  },
+  {
+    "id": "msi-55",
+    "brand": "msi",
+    "name": "MSI Prestige 13 Evo",
+    "screen": 13.3,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Urban Silver",
+    "price": 178000,
+    "discount": 0
+  },
+  {
+    "id": "msi-56",
+    "brand": "msi",
+    "name": "MSI Cyborg 15",
+    "screen": 15.6,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 5",
+    "color": "Mecha Silver",
+    "price": 155000,
+    "discount": 6
+  },
+  {
+    "id": "msi-57",
+    "brand": "msi",
+    "name": "MSI Titan GT77",
+    "screen": 17.3,
+    "ram": 32,
+    "storage": "2TB SSD",
+    "cpu": "Intel Core i9",
+    "color": "Black",
+    "price": 795000,
+    "discount": 0
+  },
+  {
+    "id": "msi-58",
+    "brand": "msi",
+    "name": "MSI Sword 15",
+    "screen": 15.6,
+    "ram": 16,
+    "storage": "512GB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Black",
+    "price": 198000,
+    "discount": 8
+  },
+  {
+    "id": "msi-59",
+    "brand": "msi",
+    "name": "MSI Summit E14",
+    "screen": 14,
+    "ram": 16,
+    "storage": "1TB SSD",
+    "cpu": "Intel Core i7",
+    "color": "Grey",
+    "price": 268000,
+    "discount": 0
+  },
+  {
+    "id": "msi-60",
+    "brand": "msi",
+    "name": "MSI Bravo 15",
+    "screen": 15.6,
+    "ram": 8,
+    "storage": "512GB SSD",
+    "cpu": "AMD Ryzen 5",
+    "color": "Black",
+    "price": 125000,
+    "discount": 5
+  }
+];
+
+const PERIPHERALS = [
+  {
+    "id": "per-01",
+    "cat": "Keyboards",
+    "name": "MechFlow K68 Mechanical Keyboard",
+    "price": 14500,
+    "discount": 0,
+    "color": "Black"
+  },
+  {
+    "id": "per-02",
+    "cat": "Keyboards",
+    "name": "devFlow Slim Wireless Keyboard",
+    "price": 6200,
+    "discount": 10,
+    "color": "White"
+  },
+  {
+    "id": "per-03",
+    "cat": "Mice",
+    "name": "devFlow Precision Wireless Mouse",
+    "price": 4800,
+    "discount": 0,
+    "color": "Black"
+  },
+  {
+    "id": "per-04",
+    "cat": "Mice",
+    "name": "MechFlow Pro Gaming Mouse 16000DPI",
+    "price": 9200,
+    "discount": 15,
+    "color": "Black"
+  },
+  {
+    "id": "per-05",
+    "cat": "Laptop Bags",
+    "name": "devFlow Urban 15.6\" Laptop Backpack",
+    "price": 7800,
+    "discount": 0,
+    "color": "Charcoal"
+  },
+  {
+    "id": "per-06",
+    "cat": "Laptop Bags",
+    "name": "devFlow Slim Sleeve 14\"",
+    "price": 3200,
+    "discount": 8,
+    "color": "Grey"
+  },
+  {
+    "id": "per-07",
+    "cat": "Docks & Hubs",
+    "name": "devFlow 8-in-1 USB-C Hub",
+    "price": 6500,
+    "discount": 0,
+    "color": "Space Grey"
+  },
+  {
+    "id": "per-08",
+    "cat": "Docks & Hubs",
+    "name": "devFlow Dual-Monitor Docking Station",
+    "price": 18500,
+    "discount": 12,
+    "color": "Black"
+  },
+  {
+    "id": "per-09",
+    "cat": "Cooling",
+    "name": "devFlow ChillBase Laptop Cooling Pad",
+    "price": 5200,
+    "discount": 0,
+    "color": "Black"
+  },
+  {
+    "id": "per-10",
+    "cat": "Power",
+    "name": "devFlow 100W GaN Fast Charger",
+    "price": 8900,
+    "discount": 0,
+    "color": "White"
+  },
+  {
+    "id": "per-11",
+    "cat": "Storage",
+    "name": "devFlow 1TB Portable SSD",
+    "price": 16800,
+    "discount": 10,
+    "color": "Silver"
+  },
+  {
+    "id": "per-12",
+    "cat": "Storage",
+    "name": "devFlow 128GB USB-C Flash Drive",
+    "price": 2800,
+    "discount": 0,
+    "color": "Silver"
+  },
+  {
+    "id": "per-13",
+    "cat": "Audio",
+    "name": "devFlow ANC Wireless Headset",
+    "price": 12500,
+    "discount": 5,
+    "color": "Black"
+  },
+  {
+    "id": "per-14",
+    "cat": "Audio",
+    "name": "devFlow USB Desktop Microphone",
+    "price": 9800,
+    "discount": 0,
+    "color": "Black"
+  },
+  {
+    "id": "per-15",
+    "cat": "Webcams",
+    "name": "devFlow 1080p Streaming Webcam",
+    "price": 7200,
+    "discount": 0,
+    "color": "Black"
+  },
+  {
+    "id": "per-16",
+    "cat": "Stands",
+    "name": "devFlow Adjustable Aluminium Laptop Stand",
+    "price": 4500,
+    "discount": 0,
+    "color": "Silver"
+  }
+];
+
+const MONITORS = [
+  {
+    "id": "mon-01",
+    "cat": "Office 24\"",
+    "name": "devFlow ClearView 24\" FHD IPS Monitor",
+    "size": 24,
+    "resolution": "1920x1080",
+    "panel": "IPS",
+    "refresh": 75,
+    "price": 24500,
+    "discount": 0,
+    "color": "Black"
+  },
+  {
+    "id": "mon-02",
+    "cat": "Office 24\"",
+    "name": "HP V24 24\" FHD Monitor",
+    "size": 24,
+    "resolution": "1920x1080",
+    "panel": "VA",
+    "refresh": 60,
+    "price": 21000,
+    "discount": 8,
+    "color": "Black"
+  },
+  {
+    "id": "mon-03",
+    "cat": "Office 27\"",
+    "name": "Dell P2723 27\" QHD Monitor",
+    "size": 27,
+    "resolution": "2560x1440",
+    "panel": "IPS",
+    "refresh": 60,
+    "price": 42000,
+    "discount": 0,
+    "color": "Black"
+  },
+  {
+    "id": "mon-04",
+    "cat": "Office 27\"",
+    "name": "devFlow WorkSpace 27\" QHD Monitor",
+    "size": 27,
+    "resolution": "2560x1440",
+    "panel": "IPS",
+    "refresh": 75,
+    "price": 45500,
+    "discount": 10,
+    "color": "Silver"
+  },
+  {
+    "id": "mon-05",
+    "cat": "Gaming",
+    "name": "MSI Optix 27\" 165Hz Gaming Monitor",
+    "size": 27,
+    "resolution": "2560x1440",
+    "panel": "IPS",
+    "refresh": 165,
+    "price": 68500,
+    "discount": 12,
+    "color": "Black"
+  },
+  {
+    "id": "mon-06",
+    "cat": "Gaming",
+    "name": "Acer Nitro 24\" 144Hz Gaming Monitor",
+    "size": 24,
+    "resolution": "1920x1080",
+    "panel": "IPS",
+    "refresh": 144,
+    "price": 38500,
+    "discount": 0,
+    "color": "Black"
+  },
+  {
+    "id": "mon-07",
+    "cat": "Gaming",
+    "name": "devFlow Velocity 27\" 240Hz Monitor",
+    "size": 27,
+    "resolution": "1920x1080",
+    "panel": "TN",
+    "refresh": 240,
+    "price": 72000,
+    "discount": 15,
+    "color": "Black"
+  },
+  {
+    "id": "mon-08",
+    "cat": "Ultrawide",
+    "name": "Dell UltraSharp 34\" Curved Ultrawide",
+    "size": 34,
+    "resolution": "3440x1440",
+    "panel": "IPS",
+    "refresh": 60,
+    "price": 135000,
+    "discount": 0,
+    "color": "Silver"
+  },
+  {
+    "id": "mon-09",
+    "cat": "Ultrawide",
+    "name": "devFlow Panorama 29\" Ultrawide Monitor",
+    "size": 29,
+    "resolution": "2560x1080",
+    "panel": "IPS",
+    "refresh": 75,
+    "price": 58500,
+    "discount": 6,
+    "color": "Black"
+  },
+  {
+    "id": "mon-10",
+    "cat": "4K / Pro",
+    "name": "LG UltraFine 27\" 4K Monitor",
+    "size": 27,
+    "resolution": "3840x2160",
+    "panel": "IPS",
+    "refresh": 60,
+    "price": 98500,
+    "discount": 0,
+    "color": "Silver"
+  },
+  {
+    "id": "mon-11",
+    "cat": "4K / Pro",
+    "name": "devFlow Studio 32\" 4K Monitor",
+    "size": 32,
+    "resolution": "3840x2160",
+    "panel": "IPS",
+    "refresh": 60,
+    "price": 118000,
+    "discount": 10,
+    "color": "Black"
+  },
+  {
+    "id": "mon-12",
+    "cat": "Portable",
+    "name": "devFlow Go 15.6\" Portable Monitor",
+    "size": 15.6,
+    "resolution": "1920x1080",
+    "panel": "IPS",
+    "refresh": 60,
+    "price": 26500,
+    "discount": 0,
+    "color": "Grey"
+  }
+];
+
+const BRANDS = {
+  "hp": {
+    "label": "HP",
+    "tagline": "Reliable performance for work and everyday computing."
+  },
+  "dell": {
+    "label": "Dell",
+    "tagline": "Business-grade build quality with serious upgrade headroom."
+  },
+  "lenovo": {
+    "label": "Lenovo",
+    "tagline": "ThinkPad durability and Legion power, side by side."
+  },
+  "apple": {
+    "label": "Apple",
+    "tagline": "Apple Silicon efficiency across the MacBook Air and Pro line."
+  },
+  "acer": {
+    "label": "Acer",
+    "tagline": "Sharp value across everyday, creator, and gaming builds."
+  },
+  "msi": {
+    "label": "MSI",
+    "tagline": "Purpose-built gaming and creator laptops with serious cooling."
+  }
+};
